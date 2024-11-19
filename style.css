@@ -20,7 +20,7 @@ body {
 
 header h1 {
     font-size: 2rem;
-    color: #007BFF;
+    color: gray;
     margin: 0;
 }
 
@@ -51,8 +51,8 @@ input[type="file"] {
 }
 
 button {
-    background-color: #007BFF;
-    color: white;
+    background-color: gray; 
+    color: silver;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
