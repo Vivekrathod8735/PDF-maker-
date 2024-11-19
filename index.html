@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Image to PDF Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Image to PDF Converter</h1>
+            <p>Upload images and create a perfectly sized PDF!</p>
+        </header>
+
+        <main>
+            <section class="converter-section">
+                <h2>Convert Images to PDF</h2>
+                <div class="upload-box">
+                    <input type="file" id="imageInput" accept="image/*" multiple>
+                    <button onclick="convertImagesToPDF()">Generate PDF</button>
+                </div>
+                <a id="downloadPDF" href="#" style="display:none" download="images.pdf" class="download-btn">Download PDF</a>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Vivek Rathod. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <!-- External Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
